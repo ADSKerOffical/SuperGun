@@ -8,7 +8,7 @@ local lol2 = Instance.new("Part",lol)
 lol2.Name = "Handle"
 local lol3 = Instance.new("SpecialMesh",lol2)
 lol3.MeshId = "http://www.roblox.com/asset?id=79429148"
-lol3.Scale = Vector3.new(3.5, 3.5, 3.5)
+lol3.Scale = Vector3.new(2.5, 2.5, 2.5)
 lol3.TextureId = "http://www.roblox.com/asset?id=79429114"
 local lol4 = Instance.new("PointLight",lol2)
 lol4.Color = Color3.new(255, 255, 255)
@@ -26,7 +26,7 @@ lol7.SoundId = "http://www.roblox.com/asset?id=130113415"
 --| Constants |--
 -----------------
 
-local SHOT_SPEED = 200
+local SHOT_SPEED = 400
 local SHOT_TIME = 20
 
 local NOZZLE_OFFSET = Vector3.new(0, 0.4, -1.1)
@@ -258,7 +258,7 @@ BaseShot.Size = Vector3.new(1, 1, 1)
 BaseShot.CanCollide = true
 BaseShot.Rotation = Vector3.new(0, -90, 0)
 BaseShot.BrickColor = BrickColor.new(70,70,70)
-BaseShot.AssemblyAngularVelocity = Vector3.new(1e5, 1e5, 1e5)
+BaseShot.AssemblyAngularVelocity = Vector3.new(1e7, 1e7, 1e7)
 local mesh = Instance.new('SpecialMesh',BaseShot)
 mesh.MeshId = "rbxassetid://10207677"
 mesh.Scale = BaseShot.Size
